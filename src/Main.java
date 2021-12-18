@@ -1,5 +1,30 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        Dom d =new Dom();
+        d.adresBudynku("Olejowa 25A");
+        d.kolorDomu(KolorEnum.Biały);
+        d.liczbaOkien(5);
+        d.liczbaMieszkancow(5);
+        d.powierzchnia(60);
+        d.sciany(50,60);
+        d.podsumowanie();
+
+
+
+        Budynek d1 = new Dom();
+        d1.adresBudynku("KOminkowa 52");
+        d1.kolorDomu(KolorEnum.Zielony);
+        d1.liczbaOkien(8);
+        d1.liczbaMieszkancow(59);
+        d1.powierzchnia(85);
+        d1.sciany(50,65);
+        d1.toString();
+
+
+
+
+
 
         /* zad.1
         a) Stwożyć interfejs Budynek,
