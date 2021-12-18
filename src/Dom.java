@@ -9,6 +9,7 @@ public class Dom implements Budynek
 
 
 
+
     public int getPo() {
         return po;
     }
@@ -99,6 +100,7 @@ public class Dom implements Budynek
     @Override
     public void kolorDomu(KolorEnum kolor)
     {
+        System.out.println("Kolor domu: " + kolor);
 
 
     }
@@ -115,11 +117,12 @@ public class Dom implements Budynek
 
     public void podsumowanie()
     {
-        System.out.println( "Adres: " + adres );
+        System.out.println("Adres: " + adres );
         System.out.println("Powierzchnia:  "+pow);
-        System.out.println( "Liczba Okien: " + value);
+        System.out.println("Liczba Okien: " + value);
         System.out.println("Liczba mieszkańców: " + ile);
         System.out.println("Sciany : " + (ok + po));
+
 
 
     }
@@ -131,8 +134,7 @@ public class Dom implements Budynek
                 ", adres='" + adres + '\'' +
                 ", value=" + value +
                 ", ile=" + ile +
-                ", ok=" + ok +
-                ", po=" + po +
+                ", suma=" +(ok +po)+
                 '}';
     }
 }

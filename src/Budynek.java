@@ -10,8 +10,5 @@ public interface Budynek
 
 
 }
-enum KolorEnum
-{
-    Biały ,Zielony;
-}
+
 

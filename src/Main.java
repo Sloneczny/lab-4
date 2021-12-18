@@ -10,6 +10,9 @@ public class Main {
         d.sciany(50,60);
         d.podsumowanie();
 
+        System.out.println();
+        System.out.println(" Next");
+
 
 
         Budynek d1 = new Dom();
@@ -19,7 +22,8 @@ public class Main {
         d1.liczbaMieszkancow(59);
         d1.powierzchnia(85);
         d1.sciany(50,65);
-        d1.toString();
+        System.out.println(" ");
+        System.out.println(d1.toString());
 
 
 
